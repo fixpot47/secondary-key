@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.fixpot47.secondarykey.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "KeyMappingAccessor",
+    "KeyMappingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
