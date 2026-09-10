@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "secondarykey",
+  "version": "${version}",
+  "name": "Secondary Key",
+  "description": "Assign one extra key to any Minecraft keybind while keeping the original key working.",
+  "authors": ["fixpot47"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.fixpot47.secondarykey.SecondaryKeyClient"]
+  },
+  "mixins": [
+    "secondarykey.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
