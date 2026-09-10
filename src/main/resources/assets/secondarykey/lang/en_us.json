@@ -1,0 +1,12 @@
+{
+  "key.category.secondarykey.controls": "Secondary Key",
+  "key.secondarykey.open_menu": "Open Secondary Key Settings",
+  "secondarykey.screen.title": "Secondary Key",
+  "secondarykey.screen.hint": "Choose one extra key for any Minecraft keybind",
+  "secondarykey.clear": "Clear",
+  "secondarykey.previous": "Previous",
+  "secondarykey.next": "Next",
+  "secondarykey.press_key": "Press a key...",
+  "secondarykey.none": "None",
+  "secondarykey.page": "Page %s / %s"
+}
