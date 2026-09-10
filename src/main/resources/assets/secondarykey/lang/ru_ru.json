@@ -1,0 +1,12 @@
+{
+  "key.category.secondarykey.controls": "Secondary Key",
+  "key.secondarykey.open_menu": "Открыть настройки Secondary Key",
+  "secondarykey.screen.title": "Secondary Key",
+  "secondarykey.screen.hint": "Назначь одну дополнительную клавишу для любой функции Minecraft",
+  "secondarykey.clear": "Сброс",
+  "secondarykey.previous": "Назад",
+  "secondarykey.next": "Далее",
+  "secondarykey.press_key": "Нажми клавишу...",
+  "secondarykey.none": "Нет",
+  "secondarykey.page": "Страница %s / %s"
+}
