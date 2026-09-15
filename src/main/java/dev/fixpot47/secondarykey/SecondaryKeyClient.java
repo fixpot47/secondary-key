@@ -22,7 +22,7 @@ public final class SecondaryKeyClient implements ClientModInitializer {
 
         openMenuKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
             "key.secondarykey.open_menu",
-            InputConstants.Type.KEYSYM,
+            InputConstants.Type.KEYBOARD,
             InputConstants.KEY_K,
             CATEGORY
         ));
