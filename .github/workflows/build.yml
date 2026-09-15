@@ -30,10 +30,11 @@ jobs:
       - name: Prepare final jar
         run: |
           mkdir -p dist
-          cp build/libs/secondary-key-1.0.0.jar dist/secondary-key.jar
+          JAR=$(find build/libs -maxdepth 1 -type f -name '*.jar' ! -name '*-sources.jar' | head -n 1)
+          cp "$JAR" dist/secondary-key-1.1.0.jar
 
       - name: Upload mod jar
         uses: actions/upload-artifact@v4
         with:
-          name: secondary-key-26.2
-          path: dist/secondary-key.jar
+          name: secondary-key-1.1.0-26.3
+          path: dist/secondary-key-1.1.0.jar
